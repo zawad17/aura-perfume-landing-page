@@ -13,6 +13,7 @@ const Visuals: React.FC = () => {
             <img 
               src="images/pavlo-talpa-ADKsjO-uwpo-unsplash.jpg" 
               alt="Lifestyle with perfume"
+              style={{ width: '400px', height: '400px', objectFit: 'cover' }}
               className="rounded-lg shadow-2xl w-full"
             />
           </div>
@@ -20,6 +21,7 @@ const Visuals: React.FC = () => {
             <img 
               src="images/perfume-6223754_1280.jpg" 
               alt="Google Drive Image" 
+              style={{ width: '400px', height: '400px', objectFit: 'cover' }}
               className="w-full h-auto rounded-lg"
             />
           </div>
