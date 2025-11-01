@@ -17,11 +17,13 @@ const Hero: React.FC = () => {
             Experience a fragrance that's as unique as your own story. Aura is more than a perfume—it's an unforgettable signature.
           </p>
           <div className="my-8 flex justify-center">
-            <img 
-              src="https://picsum.photos/id/106/300/400" 
-              alt="Perfume Bottle Mockup" 
-              className="rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-500 border-4 border-white/20"
-            />
+         <img 
+            src="images/pavlo-talpa-ADKsjO-uwpo-unsplash.jpg" 
+            alt="Perfume Bottle Mockup" 
+            style={{ width: '300px', height: '300px', objectFit: 'cover' }}
+            className="rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-500 border-4 border-white/20 w-full max-w-screen-lg h-auto mx-auto"
+          />
+
           </div>
           <a href="#order" onClick={(e) => scrollTo(e, '#order')} className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-4 px-10 rounded-full transition-transform duration-300 hover:scale-105 text-lg inline-block">
             Discover Your Scent

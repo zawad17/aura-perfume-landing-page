@@ -11,16 +11,16 @@ const Visuals: React.FC = () => {
               Aura is designed to evoke emotion and create lasting memories. It's the perfect companion for both everyday moments and special occasions. See how it fits into your life.
             </p>
             <img 
-              src="https://picsum.photos/id/1084/600/400" 
+              src="images/pavlo-talpa-ADKsjO-uwpo-unsplash.jpg" 
               alt="Lifestyle with perfume"
               className="rounded-lg shadow-2xl w-full"
             />
           </div>
           <div>
             <img 
-              src="https://picsum.photos/id/119/600/800" 
-              alt="Close-up of perfume bottle"
-              className="rounded-lg shadow-2xl w-full"
+              src="images/perfume-6223754_1280.jpg" 
+              alt="Google Drive Image" 
+              className="w-full h-auto rounded-lg"
             />
           </div>
         </div>
